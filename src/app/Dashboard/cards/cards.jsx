@@ -31,6 +31,7 @@ const cards = ({ todo, setSelected }) => {
       <div className={style.icons}>
         <FaRegUserCircle className={style.icon} />
         <input
+          style={{ cursor: "pointer" }}
           type="checkbox"
           checked={isSelected}
           onClick={(e) => e.stopPropagation()}
