@@ -1,0 +1,35 @@
+.container {
+  width: 270;
+  height: 230;
+  gap: 40px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  border-width: 3px;
+  border: 1px solid black;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  input {
+    width: 30;
+  }
+}
+.icon {
+  font-size: 40;
+}
+.title {
+  font-size: 20;
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  gap: 50px;
+  margin-top: 70px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 350;
+  }
+}
